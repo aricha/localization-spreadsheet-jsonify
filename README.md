@@ -38,6 +38,13 @@ Step 2
 
 <a href="http://vilimpoc.org/research/LSJ">Here's an example</a> of jquery.localize in action.
 
+**Export it to Cocoa .strings files**:
+
+1. Copy the localize-strings.py to your project folder.
+-  Edit localize-strings.py, setting SHEET\_ID to the ID of your Google Spreadsheet, and SHEET\_NAME to the name of the sheet used in that Google Spreadsheet.
+-  Run localize-strings.py, optionally specifying an output directory as the first argument.
+-  Done.
+
 **Export it to ZIP**: (work in progress)
 
 Unavailable until Google fixes their ContentService so it doesn't mangle 8-bit "application/zip" or "application/octet-stream" output. :(
